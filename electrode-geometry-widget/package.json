@@ -1,6 +1,6 @@
 {
   "name": "@hodj/electrode-geometry-widget",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Electrodge geometry widget for ephys",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
