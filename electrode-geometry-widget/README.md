@@ -1,3 +1,1 @@
-# hodj
-
-A hodgepodge of node modules.
+# electrode-geometry-widget
