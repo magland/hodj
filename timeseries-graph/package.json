@@ -1,0 +1,41 @@
+{
+  "name": "@hodj/timeseries-graph",
+  "version": "0.0.14",
+  "description": "Timeseries graph",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npm run generate_worker_text && tsc && copyfiles -u 1 \"src/**/*.css\" dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build",
+    "generate_worker_text": "node devel/generate_worker_text.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/magland/hodj"
+  },
+  "peerDependencies": {
+    "react": ">=16.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.42",
+    "copyfiles": "^2.4.1",
+    "typescript": "^5.3.2"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "electrophysiology"
+  ],
+  "author": "Jeremy Magland",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@hodj/misc": "^0.0.1",
+    "@hodj/splitter": "^0.0.1",
+    "@mui/material": "^5.14.20",
+    "mathjs": "^12.1.0",
+    "react-icons": "^4.12.0"
+  }
+}
